@@ -6,4 +6,12 @@ function subtracao (a, b) {
     return a - b
 }
 
-module.exports = { soma, subtracao }
+function multiplicacao (a, b) {
+    return a * b
+}
+
+module.exports = { 
+    soma, 
+    subtracao ,
+    multiplicacao
+}
