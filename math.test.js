@@ -1,4 +1,4 @@
-const {soma, subtracao }= require('./math')
+const {soma, subtracao, multiplicacao }= require('./math')
 
 test('soma', () => {
     expect(soma(2, 3)).toBe(5)
